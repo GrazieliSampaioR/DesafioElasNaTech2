@@ -14,7 +14,7 @@
         header {
             text-align: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 20px;
+            font-size: 1.2em;
             color: #ffbdf6;
         }
         header img{
@@ -24,9 +24,15 @@
             text-align: center;
             border: double 15px pink;
         }
+
+        .curriculo{
+            width: 100%;
+            padding: 1em;
+        }
+
         h1{
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 36px;
+            font-size: 2em;
             color: #ffbdf6;
         }
         h3{
@@ -45,6 +51,11 @@
             color: white;
 
         }
+
+        hr{
+        width: 25em;
+        }
+
         footer img{
             width: 50px;
             height: 50px;
@@ -68,58 +79,55 @@
 </head>
 <body>
     <header>
+        <div>
         <img src="images/FotoDePerfil.jpg" alt="Foto de perfil Grazieli">
         <h1>Grazieli Sampaio Reis</h1>
-        <h2>Futura Dev - Se achando a própria</h2>
+        <h2>Futura Dev - profissional em formação</h2>
+        </div>
     </header>
     <Main>
         <!--Conteúdo principal do cúrriculo-->
-        <section> <!--Usamos essa tag para definir porções semanticamente discretas do conteúdo-->
-            <p style="text-align: center;">
-                <br>
+        <section class="curriculo"> <!--Usamos essa tag para definir porções semanticamente discretas do conteúdo-->
+            <div class="infos">
+            <p class="conteudo-info">
                 <b>Celular:&nbsp;(21) 98667-6353 &nbsp;&nbsp;&nbsp;
                  Email: grazieli.sampaiio@gmail.com
-                <br>
-                <br>
                 Endereço: Ipiranga, Nova Iguaçu - RJ
                 </b> 
             </p>
-            <br>
+            </div>
+            <div class="secao-1">
             <h3>Objetivo profissional</h3>
-            <p>Procuro oportunidades na área administrativa e suporte de TI.</p>
-        </section>
-        <br>
-        <section>
+            <p>Procuro oportunidades na área administrativa e de TI.</p>
+            </div>
+        <div class="secao-2">
             <h3>Formação acadêmica</h3>
-            <p>Segundo grau completo - 2019</p>
-        </section>
-        <br>
-        <section>
+            <p>Segundo grau completo - 2019 - Colégio Sargento Antônio Ernesto</p>
+        </div>
+        <div class="secao-3">
             <h3>Cursos e qualificações</h3>
-            <p> Desenvolvimento web - Elas na Tech (cursando)</p>
-                <br>
-            <p>    Suporte de TI - Programa transformar (cursando)</p>
-
-        </section>
-        <br>
-        <section>
+            <p> Desenvolvimento web - Elas na Tech - 180h (cursando)</p>
+            <p>Suporte de TI - Programa transformar - 83h (cursando)</p>
+        </div>
+        <div class="secao-4">
             <h3>Experiência profissional</h3>
             <p><strong>Assistente administrativo de recepção</strong></p>
             <p>Hospital espírita Mahatma Gandhi · Tempo integral</p>
             <p>abr 2020 - nov de 2021 · 1 ano 8 meses</p>
             <p>Nova Iguaçu, Rio de Janeiro, Brasil · Presencial</p>
-            <br>
+        </div>
+        <hr>
+        <div class="secao-5">
             <p><strong>Educadora social</strong></p>
             <p>INADH - Instituto Nacional de Desenvolvimento Humano · Meio período</p>
             <p>abr de 2022 - mar de 2023 · 1 ano</p>
             <p>Nova Iguaçu, Rio de Janeiro, Brasil</p>
-        </section>
-        <br>
-        <section>
+        </div>
+        <div class="secao-6">
             <h3>Informações adicionais</h3>
             <p>Possuo disponibilidade nos turnos da manhã e noite, tenho conhecimentos sobre expedição de pedidos e estou disposta a negociar salário e benefícios.</p>
+        </div>
         </section>
-        <br>
     </Main>
     <Footer> <!--Usado para rodapé da página-->
         <a href="https://www.linkedin.com/in/grazieli-sampaio-reis/">
